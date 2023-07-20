@@ -106,3 +106,29 @@
     background-color: #e7e7e7;
 
 }
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        width: 90%;
+    }
+    .right{
+        gap: 0.5rem;
+    }
+    .logout{
+        font-size: 14px;
+    }
+    .create{
+        font-size: 14px;
+    }
+    .login{
+        font-size: 14px;
+    }
+    .dropdown{
+        top: 3.5rem;
+        right: -2rem;
+    }
+    .register{
+        font-size: 14px;
+    }
+    
+}
