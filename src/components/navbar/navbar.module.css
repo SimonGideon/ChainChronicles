@@ -107,7 +107,19 @@
 
 }
 
-@media screen and (max-width: 768px){
+/* mobile version */
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .wrapper>h2 {
+        font-size: 1rem;
+    }
     .wrapper{
         width: 90%;
     }
